@@ -1,0 +1,17 @@
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.csproj.AssemblyReference.cache
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.AssemblyInfoInputs.cache
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.AssemblyInfo.cs
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\bin\Debug\net6.0\CuidadoBovino.App.Persistencia.deps.json
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\bin\Debug\net6.0\CuidadoBovino.App.Persistencia.runtimeconfig.json
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\bin\Debug\net6.0\CuidadoBovino.App.Persistencia.dll
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\bin\Debug\net6.0\CuidadoBovino.App.Persistencia.pdb
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\bin\Debug\net6.0\CuidadoBovino.App.Dominio.dll
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\bin\Debug\net6.0\CuidadoBovino.App.Dominio.pdb
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.csproj.CopyComplete
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.dll
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\refint\CuidadoBovino.App.Persistencia.dll
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.pdb
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\CuidadoBovino.App.Persistencia.genruntimeconfig.cache
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Persistencia\obj\Debug\net6.0\ref\CuidadoBovino.App.Persistencia.dll

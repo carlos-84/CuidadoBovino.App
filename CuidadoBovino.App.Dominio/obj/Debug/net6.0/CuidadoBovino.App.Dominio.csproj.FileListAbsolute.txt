@@ -1,0 +1,12 @@
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\bin\Debug\net6.0\CuidadoBovino.App.Dominio.deps.json
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\bin\Debug\net6.0\CuidadoBovino.App.Dominio.dll
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\bin\Debug\net6.0\CuidadoBovino.App.Dominio.pdb
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.csproj.AssemblyReference.cache
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.AssemblyInfoInputs.cache
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.AssemblyInfo.cs
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.csproj.CoreCompileInputs.cache
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.dll
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\refint\CuidadoBovino.App.Dominio.dll
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.pdb
+C:\CuidadoBovino\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\ref\CuidadoBovino.App.Dominio.dll
