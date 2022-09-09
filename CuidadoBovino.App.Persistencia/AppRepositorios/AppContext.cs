@@ -7,10 +7,9 @@ namespace CuidadoBovino.App.Persistencia
     {
         public DbSet<DuenoBovino> DuenoBovinos { get; set; }
         public DbSet<Bovino> Bovinos { get; set; }
-        public DbSet<Veterinario> Veterinarios {get;set;}
         public DbSet<HistoriaMedica> HistoriasMedicas {get;set;}
         public DbSet<RecomendaMedica> RecomendaMedicas {get;set;}
-
+        public DbSet<Veterinario> Veterinarios {get;set;}
 
         protected  override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

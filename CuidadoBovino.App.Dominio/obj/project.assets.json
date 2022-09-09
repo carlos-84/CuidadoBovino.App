@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\David Naranjo\\.nuget\\packages\\": {}
+    "C:\\Users\\Home\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CuidadoBovino\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj",
+      "projectUniqueName": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj",
       "projectName": "CuidadoBovino.App.Dominio",
-      "projectPath": "C:\\CuidadoBovino\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\David Naranjo\\.nuget\\packages\\",
-      "outputPath": "C:\\CuidadoBovino\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\obj\\",
+      "projectPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+      "outputPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\David Naranjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

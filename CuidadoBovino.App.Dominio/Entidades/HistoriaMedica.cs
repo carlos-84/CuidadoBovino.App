@@ -4,9 +4,9 @@ namespace CuidadoBovino.App.Dominio
    
     public class HistoriaMedica
     {
-        public int IdVisita {get;set;}
-        public DataTime FechaApertura {get;set;}
-        public DataTime FechaVisita {get;set;}
+        public int Id {get;set;}
+        public string FechaApertura {get;set;}
+        public string FechaVisita {get;set;}
         public float Temperatura {get;set;}
         public float Peso {get;set;}
         public float FrecuCardiaca {get;set;}

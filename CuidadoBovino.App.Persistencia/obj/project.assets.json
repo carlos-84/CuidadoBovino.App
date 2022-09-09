@@ -6058,19 +6058,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\David Naranjo\\.nuget\\packages\\": {}
+    "C:\\Users\\Home\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CuidadoBovino\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
       "projectName": "CuidadoBovino.App.Persistencia",
-      "projectPath": "C:\\CuidadoBovino\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\David Naranjo\\.nuget\\packages\\",
-      "outputPath": "C:\\CuidadoBovino\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\obj\\",
+      "projectPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+      "outputPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\David Naranjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -6082,8 +6082,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\CuidadoBovino\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj": {
-              "projectPath": "C:\\CuidadoBovino\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj"
+            "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj": {
+              "projectPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj"
             }
           }
         }

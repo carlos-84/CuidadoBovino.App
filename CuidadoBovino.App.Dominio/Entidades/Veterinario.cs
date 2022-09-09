@@ -2,10 +2,14 @@ using System;
 namespace CuidadoBovino.App.Dominio
 {
    
-    public class Veterinario : DuenoBovino
+    public class Veterinario
     {
-        public int IdVeterinario {get;set;}
-        public string TarjProfesional {get;set;}
+        public int Id {get;set;}
+        public int TarjProfesional {get;set;}
+        public string Nombre {get;set;}
+        public string Delefono {get;set;}
+        public string Direccion {get;set;}
+        public string Correo {get;set;}
 
        
     }
