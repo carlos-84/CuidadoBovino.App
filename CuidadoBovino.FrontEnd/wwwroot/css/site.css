@@ -15,8 +15,18 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-image: url(../img/img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #41464b/*rgba(0,0,0,.55)*/;
+}
+
+.div-form{
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 9px;
 }

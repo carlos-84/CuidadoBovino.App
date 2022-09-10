@@ -1,0 +1,75 @@
+﻿@page
+@model CuidadoBovino.FrontEnd.Pages.BovinosModel
+@{
+    ViewData["Title"] = "Bovinos | Cuidado Bovino";
+}
+
+<div class="shadow-sm p-3 mb-5 bg-light rounded">
+    <h1 class="h1">Listado de Bovinos registrados en el sistema de Cuidado Bovino.</h1>
+</div>
+<hr>
+<div class="shadow-sm p-3 mb-5 bg-light rounded d-inline">
+    <h3 class="h3 d-inline">Para agregar un nuevo Bovino presione</h3>   <a class="btn btn-success" asp-area="" asp-page="/Bovinos/AgregarBovino"> <i class="fas fa-plus"></i> Agregar</a>
+</div>
+<hr>
+    <table class="table table-bordered shadow-sm bg-light">
+        <thead>
+            <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre del Bovino</th>
+            <th scope="col">Color</th>
+            <th scope="col">Raza</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Veterinario</th>
+            <th scope="col">Fecha Visita</th>
+            <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Blanco</td>
+                <td>Cebú</td>
+                <td>2 Años</td>
+                <td>David Naranjo</td>
+                <td>09/09/2022</td>
+                <td>
+                    <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
+                        <a class="btn btn-warning d-inline" asp-area="" asp-page="/Bovinos/EditarBovino"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-area="" asp-page="/Bovinos/EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
+                    </div>
+                </td>
+            </tr>
+           <tr>
+                <th scope="row">2</th>
+                <td>Pachita</td>
+                <td>Negra</td>
+                <td>Cebú</td>
+                <td>3 Años</td>
+                <td>David Naranjo</td>
+                <td>08/09/2022</td>
+                <td>
+                    <div class="btn-group ml-5 mr-5" role="group" aria-label="Basic mixed styles example">
+                        <a class="btn btn-warning d-inline" asp-area="" asp-page="/Bovinos/EditarBovino"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-area="" asp-page="/Bovinos/EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Cecci</td>
+                <td>Canela</td>
+                <td>Pardo</td>
+                <td>1 Año</td>
+                <td>David Naranjo</td>
+                <td>07/09/2022</td>
+                <td>
+                    <div class="btn-group ml-5 mr-5" role="group" aria-label="Basic mixed styles example">
+                        <a class="btn btn-warning d-inline" asp-area="" asp-page="/Bovinos/EditarBovino"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-area="" asp-page="/Bovinos/EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>

@@ -1,0 +1,41 @@
+﻿@page
+@model CuidadoBovino.FrontEnd.Pages.AgregarBovinoModel
+@{
+    ViewData["Title"] = "Agregar Bovinos | Cuidado Bovino";
+}
+
+<div class="shadow-sm p-3 mb-5 bg-light rounded">
+    <h1 class="h1">Para agregar un nuevo bovino rellene todos los campos.  <i class="fas fa-hippo"></i></h1> 
+</div>
+<hr>
+<div class="div-form bg-light">
+<form class="formNBov m-3">
+  <div class="form-group">
+    <label for="nom" class="form-label">Nombre del Bovino</label>
+    <input type="text" class="form-control" id="nom" placeholder="Nombre del Bovino">
+  </div>
+  <div class="form-group">
+    <label for="raza" class="form-label">Raza del Bovino</label>
+    <input type="text" class="form-control" id="raza" placeholder="Raza del Bovino">
+  </div>
+  <div class="form-group">
+    <label for="color" class="form-label">Color del Bovino</label>
+    <input type="text" class="form-control" id="color" placeholder="Color del Bovino">
+  </div>
+  <div class="form-group">
+    <label for="edad" class="form-label">Edad del Bovino</label>
+    <input type="number" class="form-control" id="edad" placeholder="Edad del Bovino">
+  </div>
+  <div class="form-group">
+    <label for="vet" class="form-label">Veterinario del Bovino</label>
+    <input type="text" class="form-control" id="vet" placeholder="Veterinario del Bovino">
+  </div>
+  <div class="form-group">
+    <label for="fec_vis" class="form-label">Fecha de Visita</label>
+    <input type="date" class="form-control" id="fec_vis">
+  </div>
+  <button type="submit" class="btn btn-success mt-3 mb-3"><i class="fas fa-hippo"></i> Guardar</button>
+  <a type="button" class="btn btn-secondary mt-3 mb-3" asp-area="" asp-page="/Bovinos/Bovinos"><i class="fas fa-ban"></i> Cancelar</a>
+</form>
+</div>
+
