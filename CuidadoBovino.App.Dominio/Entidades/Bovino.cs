@@ -10,6 +10,6 @@ namespace CuidadoBovino.App.Dominio
         public string Color {get; set;}
         public string Raza {get;set;}
         public int Edad {get; set;}
-        /*jhdsvfkjhdbglsjkd*/
+        
     }
 }
