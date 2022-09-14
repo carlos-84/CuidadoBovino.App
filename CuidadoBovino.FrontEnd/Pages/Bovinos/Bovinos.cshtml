@@ -15,61 +15,31 @@
     <table class="table table-bordered shadow-sm bg-light">
         <thead>
             <tr>
-            <th scope="col">Id</th>
             <th scope="col">Nombre del Bovino</th>
             <th scope="col">Color</th>
             <th scope="col">Raza</th>
             <th scope="col">Edad</th>
-            <th scope="col">Veterinario</th>
-            <th scope="col">Fecha Visita</th>
             <th scope="col">Acciones</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Blanco</td>
-                <td>Cebú</td>
-                <td>2 Años</td>
-                <td>David Naranjo</td>
-                <td>09/09/2022</td>
-                <td>
+             @foreach (var bovine in Model.Bovino)
+            {
+                 <tr>
+                <td>@bovine.NombreBovino</td>
+                <td>@bovine.Color</td>
+                <td>@bovine.Raza</td>
+                <td>@bovine.Edad</td>
+                 <td>
                     <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
-                        <a class="btn btn-warning d-inline" asp-area="" asp-page="/Bovinos/EditarBovino"><i class="fas fa-edit"></i> Editar</a>
-                        <a class="btn btn-danger d-inline" asp-area="" asp-page="/Bovinos/EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
+                        <a class="btn btn-warning d-inline" asp-area="" asp-page="./EditarBovino"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-area="" asp-page="./EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
+                         <a class="btn btn-success d-inline" asp-area="" asp-page="./Detalles"><i class="far fa-list-alt"></i> Detalles</a> 
                     </div>
-                </td>
+                </td> 
             </tr>
-           <tr>
-                <th scope="row">2</th>
-                <td>Pachita</td>
-                <td>Negra</td>
-                <td>Cebú</td>
-                <td>3 Años</td>
-                <td>David Naranjo</td>
-                <td>08/09/2022</td>
-                <td>
-                    <div class="btn-group ml-5 mr-5" role="group" aria-label="Basic mixed styles example">
-                        <a class="btn btn-warning d-inline" asp-area="" asp-page="/Bovinos/EditarBovino"><i class="fas fa-edit"></i> Editar</a>
-                        <a class="btn btn-danger d-inline" asp-area="" asp-page="/Bovinos/EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Cecci</td>
-                <td>Canela</td>
-                <td>Pardo</td>
-                <td>1 Año</td>
-                <td>David Naranjo</td>
-                <td>07/09/2022</td>
-                <td>
-                    <div class="btn-group ml-5 mr-5" role="group" aria-label="Basic mixed styles example">
-                        <a class="btn btn-warning d-inline" asp-area="" asp-page="/Bovinos/EditarBovino"><i class="fas fa-edit"></i> Editar</a>
-                        <a class="btn btn-danger d-inline" asp-area="" asp-page="/Bovinos/EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
-                    </div>
-                </td>
-            </tr>
+                
+            }
+           
         </tbody>
     </table>
