@@ -31,6 +31,7 @@
                 <td>@bovine.Raza</td>
                 <td>@bovine.Edad</td>
                  <td>
+                    <a class="btn btn-primary table-btn" asp-page="./Detalles" asp-route-Id="@bovine.Id">Detalles<i class="fas fa-info-cicle fa-lg" arial-hidden="true"></i></a>
                     <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
                         <a class="btn btn-warning d-inline" asp-area="" asp-page="./EditarBovino"><i class="fas fa-edit"></i> Editar</a>
                         <a class="btn btn-danger d-inline" asp-area="" asp-page="./EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 

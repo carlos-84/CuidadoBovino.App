@@ -2,4 +2,16 @@
 @model CuidadoBovino.FrontEnd.Pages.DetallesModel
 @{
 }
-<h1>Pagina Detalles</h1>
+<h1>Pagina Detalles Bovino</h1>
+
+<div>Id Bovino: @Model.bovino.Id</div>
+
+<div>Id Veterinario: @Model.bovino.IdVeterinario</div>
+
+<div>Id Visita: @Model.bovino.IdVisita</div>
+
+<div>Nombre Bovino: @Model.bovino.NombreBovino</div>
+
+<div>Raza Bovino: @Model.bovino.Raza</div>
+
+<a class="btn-default"asp-page="./Bovinos">Regresar al Listado</a>
