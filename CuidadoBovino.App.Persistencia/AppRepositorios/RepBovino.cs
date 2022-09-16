@@ -25,15 +25,9 @@ namespace CuidadoBovino.App.Persistencia
         {
             return _appContext.Bovinos;
         }
-
-        Bovino IntBovino.GetBovino(int IdBovino)
-        {
-            return _appContext.Bovinos.FirstOrDefault(Bovino => Bovino.Id ==IdBovino);
-        }
-
         Bovino IntBovino.UpdateBovino(Bovino bovino)
         {
-            var BovinoEncontrado = _appContext.Bovinos.FirstOrDefault(Bovino => Bovino.Id == bovino.Id);
+            var BovinoEncontrado = _appContext.Bovinos.FirstOrDefault(B => B.Id == bovino.Id);
             if (BovinoEncontrado != null)
             {
                 BovinoEncontrado.Id = bovino.Id;
@@ -50,7 +44,7 @@ namespace CuidadoBovino.App.Persistencia
 
         void IntBovino.DeleteBovino(int idBovino)
         {
-            var BovinoEncontrado = _appContext.Bovinos.FirstOrDefault(Bovino => Bovino.Id ==idBovino);
+            var BovinoEncontrado = _appContext.Bovinos.FirstOrDefault(b => b.Id ==idBovino);
             if (BovinoEncontrado == null)
             {
                 return;
@@ -58,6 +52,11 @@ namespace CuidadoBovino.App.Persistencia
             _appContext.Bovinos.Remove(BovinoEncontrado);
             _appContext.SaveChanges();
                 
+        }
+
+        Bovino IntBovino.GetBovino(int IdBovino)
+        {
+            return _appContext.Bovinos.FirstOrDefault(b => b.Id == IdBovino);
         }
     }
 }
