@@ -19,11 +19,11 @@ namespace CuidadoBovino.App.Consola
       {
         // IdPersona=11,
          IdVeterinario=1,
-         IdVisita=1,
-         NombreBovino="Margaret",
-         Color="Gris",
-         Raza="Criollo",
-         Edad=2
+         IdVisita=2,
+         NombreBovino="Panchita",
+         Color="cafe",
+         Raza="Lechera",
+         Edad=4
       };  
       _repoBovino.AddBovino(bovino);
     }

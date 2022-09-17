@@ -26,7 +26,7 @@ namespace CuidadoBovino.FrontEnd.Pages
           
             if (bovino==null)
             {
-                return RedirectToPage("./NoFound");
+                return RedirectToPage("./NotFound");
                //Console.WriteLine("nada por aqui");
                //return null;
             }

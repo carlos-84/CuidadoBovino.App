@@ -35,6 +35,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm92aW5vc1xFbGltaW5hckJvdmluby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm92aW5vc1xOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
