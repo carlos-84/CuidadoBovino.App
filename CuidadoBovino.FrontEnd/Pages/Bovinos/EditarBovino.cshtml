@@ -1,4 +1,51 @@
 ﻿@page
 @model CuidadoBovino.FrontEnd.Pages.EditarBovinoModel
 @{
+    int idbovino = Model.bovino.Id;
 }
+
+<div class="shadow-sm p-3 mb-1 bg-light rounded">
+    <h2 class="h2 text-center ">Edicion de datos del Bovino <i class="fas fa-edit fa-lg"></i></h2>
+</div>
+<div class="div-form bg-light mb-3">
+    <form method="post" class=" bg-light">
+        <input type="hidden" asp-for="bovino.Id"/>
+        <div class="form-grup">
+            <label asp-for="bovino.Id"></label>
+            <input asp-for="bovino.Id" class="form-control">
+            <span class="text-danger" asp-validation-for="bovino.Id"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="bovino.NombreBovino"></label>
+            <input asp-for="bovino.NombreBovino" class="form-control">
+            <span class="text-danger" asp-validation-for="bovino.NombreBovino"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="bovino.Color"></label>
+            <input asp-for="bovino.Color" class="form-control">
+            <span class="text-danger" asp-validation-for="bovino.Color"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="bovino.Raza"></label>
+            <input asp-for="bovino.Raza" class="form-control">
+            <span class="text-danger" asp-validation-for="bovino.Raza"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="bovino.Edad"></label>
+            <input asp-for="bovino.Edad" class="form-control">
+            <span class="text-danger" asp-validation-for="bovino.Edad"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="bovino.IdVeterinario"></label>
+            <input asp-for="bovino.IdVeterinario" class="form-control">
+            <span class="text-danger" asp-validation-for="bovino.IdVeterinario"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="bovino.IdVisita"></label>
+            <input asp-for="bovino.IdVisita" class="form-control">
+            <span class="text-danger" asp-validation-for="bovino.IdVisita"></span>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-success">Guardar <i class="fas fa-save fa-lg"></i></button>
+    </form>
+</div>

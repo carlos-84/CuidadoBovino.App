@@ -11,28 +11,27 @@ namespace CuidadoBovino.App.Consola
         {
             Console.WriteLine("Hello, World!");
             //AddBovino();
-            BuscarBovino(1);
+            BuscarBovino(6);
         }
         private static void AddBovino()
-    {
-      var bovino=new Bovino()
-      {
-        // IdPersona=11,
-         IdVeterinario=2,
-         IdVisita=5,
-         NombreBovino="Jacinta",
-         Color="Cafe",
-         Raza="Angus",
-         Edad=6
-      };  
-      _repoBovino.AddBovino(bovino);
-    }
-    private static void BuscarBovino(int Idbovino)
-      {
-        var bovino=_repoBovino.GetBovino(Idbovino);
-        Console.WriteLine(bovino.NombreBovino);
- 
-     }
+        {
+          var bovino=new Bovino()
+          {
+            // IdPersona=11,
+            IdVeterinario=2,
+            IdVisita=5,
+            NombreBovino="Jacinta",
+            Color="Cafe",
+            Raza="Angus",
+            Edad=6
+          };  
+          _repoBovino.AddBovino(bovino);
+        }
+      private static void BuscarBovino(int idbovino)
+        {
+          var bovino=_repoBovino.GetBovino(idbovino);
+          Console.WriteLine(bovino.NombreBovino);
+      }
 
     }
     
