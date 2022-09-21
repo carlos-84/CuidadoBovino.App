@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9qfDEYlmctvujPElBlMd0gI4RxbJswBC6W3Hlws4x1tj4TRJTVIOD7Txd1gpGa9VhbvIf84X7yz8rAp/JclMTg==",
+  "dgSpecHash": "UxBm/rijwS3TxtflR25R6ZIM8p5V7tZBMH9L1Rl1zd/s/W9ntpE4AbEJ0Etl2ox+3J2wwdZzPllfsd6+Uveg8A==",
   "success": true,
-  "projectFilePath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
+  "projectFilePath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Home\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

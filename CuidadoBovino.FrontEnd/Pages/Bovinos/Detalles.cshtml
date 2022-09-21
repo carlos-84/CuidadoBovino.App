@@ -2,4 +2,19 @@
 @model CuidadoBovino.FrontEnd.Pages.DetallesModel
 @{
 }
-<h1>Pagina Detalles</h1>
+<div class="shadow-sm p-3 mb-5 bg-light rounded">
+    <h1 class="h1 text-center">Pagina Detalles Bovino</h1>
+</div>
+<br>
+<div class="card">
+  <h5 class="card-header h3 text-center">Datos del Bovino</h5>
+  <div class="card-body text-center">
+    <h5 class="card-title h5"><b>Nombre Bovino:</b></b> @Model.bovino.NombreBovino</h5>
+    <p class="card-text h5"><b>Id Bovino:</b> @Model.bovino.Id</p>
+    <p class="card-text h5"><b>Raza Bovino:</b> @Model.bovino.Raza</p>
+    <p class="card-text h5"><b>Color Bovino:</b> @Model.bovino.Color</p>
+    <p class="card-text h5"><b>Id del Veterinario Bovino:</b> @Model.bovino.IdVeterinario</p>
+    <p class="card-text h5"><b>Id Visita Bovino:</b> @Model.bovino.IdVisita</p>
+    <a class="btn btn-primary" asp-page="./Bovinos">Regresar al Listado <i class="fas fa-arrow-circle-left fa-lg"></i></a>
+  </div>
+</div> 
