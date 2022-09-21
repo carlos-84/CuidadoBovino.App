@@ -8,57 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CuidadoBovino.FrontEnd
 build_property.RootNamespace = CuidadoBovino.FrontEnd
-build_property.ProjectDir = C:\MinTic-Ucaldas\CuidadoBovino1.2\CuidadoBovino.App\CuidadoBovino.FrontEnd\
+build_property.ProjectDir = C:\MinTic-Ucaldas\ProyectoTic\CuidadoBovino.App\CuidadoBovino.FrontEnd\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\MinTic-Ucaldas\CuidadoBovino1.2\CuidadoBovino.App\CuidadoBovino.FrontEnd
+build_property.MSBuildProjectDirectory = C:\MinTic-Ucaldas\ProyectoTic\CuidadoBovino.App\CuidadoBovino.FrontEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/AgregarBovino.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/AgregarBovino.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm92aW5vc1xBZ3JlZ2FyQm92aW5vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/Bovinos.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/Bovinos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm92aW5vc1xCb3Zpbm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/Detalles.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/Detalles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm92aW5vc1xEZXRhbGxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/EditarBovino.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/EditarBovino.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm92aW5vc1xFZGl0YXJCb3Zpbm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/EliminarBovino.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/EliminarBovino.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm92aW5vc1xFbGltaW5hckJvdmluby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Error.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Bovinos/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm92aW5vc1xOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Index.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Privacy.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/_ViewImports.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/_ViewStart.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MinTic-Ucaldas/CuidadoBovino1.2/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Shared/_Layout.cshtml]
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d41limjwng

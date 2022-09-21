@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\CuidadoBovino.App.Consola.csproj": {}
+    "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\CuidadoBovino.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\CuidadoBovino.App.Consola.csproj": {
+    "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\CuidadoBovino.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\CuidadoBovino.App.Consola.csproj",
+        "projectUniqueName": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\CuidadoBovino.App.Consola.csproj",
         "projectName": "CuidadoBovino.App.Consola",
-        "projectPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\CuidadoBovino.App.Consola.csproj",
+        "projectPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\CuidadoBovino.App.Consola.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\obj\\",
+        "outputPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj": {
-                "projectPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj"
+              "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj": {
+                "projectPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj": {
+    "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj",
+        "projectUniqueName": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj",
         "projectName": "CuidadoBovino.App.Dominio",
-        "projectPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj",
+        "projectPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\obj\\",
+        "outputPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj": {
+    "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
         "projectName": "CuidadoBovino.App.Persistencia",
-        "projectPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
+        "projectPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\obj\\",
+        "outputPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -144,8 +144,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj": {
-                "projectPath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj"
+              "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj": {
+                "projectPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj"
               }
             }
           }

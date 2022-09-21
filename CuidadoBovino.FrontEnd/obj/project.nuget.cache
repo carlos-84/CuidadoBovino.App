@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AVHXNW+Nx6UwMXKd0eXCYBVZ6kC6oxHZ1BH71Uy9LvGPLtdCGJIJpfREuf1/WPzSCHvddlyDy9IgGu4RMJ7uIg==",
+  "dgSpecHash": "IRV4cJVzyG97g9RqJMTrEpOyBhN2gFs2GilYhhkBpZIQSZqijk6oYxtozgYcPzR0YSkQbejkiVYFGqeG0RobfQ==",
   "success": true,
-  "projectFilePath": "C:\\MinTic-Ucaldas\\CuidadoBovino1.2\\CuidadoBovino.App\\CuidadoBovino.FrontEnd\\CuidadoBovino.FrontEnd.csproj",
+  "projectFilePath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.FrontEnd\\CuidadoBovino.FrontEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

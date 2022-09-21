@@ -34,8 +34,8 @@
                     
                     <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed">
                         <a class="btn btn-primary table-btn" asp-page="./Detalles" asp-route-IdBovino="@bovine.Id"><i class="far fa-list-alt"></i> Detalles</a>
-                        <a class="btn btn-warning d-inline" asp-area="" asp-page="./EditarBovino"><i class="fas fa-edit"></i> Editar</a>
-                        <a class="btn btn-danger d-inline" asp-area="" asp-page="./EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
+                        <a class="btn btn-warning d-inline" asp-route-IdBovino="@bovine.Id" asp-page="./EditarBovino"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-route-IdBovino="@bovine.Id" asp-page="./EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
                     </div>
                 </td> 
             </tr>
