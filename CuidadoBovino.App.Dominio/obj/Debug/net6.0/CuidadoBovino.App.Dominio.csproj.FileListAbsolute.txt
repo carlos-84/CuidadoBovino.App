@@ -34,3 +34,15 @@ C:\MinTic-Ucaldas\ProyectoTic\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\De
 C:\MinTic-Ucaldas\ProyectoTic\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\refint\CuidadoBovino.App.Dominio.dll
 C:\MinTic-Ucaldas\ProyectoTic\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.pdb
 C:\MinTic-Ucaldas\ProyectoTic\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\ref\CuidadoBovino.App.Dominio.dll
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\bin\Debug\net6.0\CuidadoBovino.App.Dominio.deps.json
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\bin\Debug\net6.0\CuidadoBovino.App.Dominio.dll
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\bin\Debug\net6.0\CuidadoBovino.App.Dominio.pdb
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.AssemblyInfo.cs
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.dll
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\refint\CuidadoBovino.App.Dominio.dll
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\CuidadoBovino.App.Dominio.pdb
+C:\Users\David Naranjo\OneDrive\Documentos\GitHub\CuidadoBovino.App\CuidadoBovino.App.Dominio\obj\Debug\net6.0\ref\CuidadoBovino.App.Dominio.dll

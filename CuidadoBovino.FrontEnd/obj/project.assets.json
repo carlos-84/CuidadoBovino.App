@@ -1942,19 +1942,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Home\\.nuget\\packages\\": {}
+    "C:\\Users\\David Naranjo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.FrontEnd\\CuidadoBovino.FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\David Naranjo\\OneDrive\\Documentos\\GitHub\\CuidadoBovino.App\\CuidadoBovino.FrontEnd\\CuidadoBovino.FrontEnd.csproj",
       "projectName": "CuidadoBovino.FrontEnd",
-      "projectPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.FrontEnd\\CuidadoBovino.FrontEnd.csproj",
-      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.FrontEnd\\obj\\",
+      "projectPath": "C:\\Users\\David Naranjo\\OneDrive\\Documentos\\GitHub\\CuidadoBovino.App\\CuidadoBovino.FrontEnd\\CuidadoBovino.FrontEnd.csproj",
+      "packagesPath": "C:\\Users\\David Naranjo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\David Naranjo\\OneDrive\\Documentos\\GitHub\\CuidadoBovino.App\\CuidadoBovino.FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\David Naranjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1966,11 +1966,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj": {
-              "projectPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj"
+            "C:\\Users\\David Naranjo\\OneDrive\\Documentos\\GitHub\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\David Naranjo\\OneDrive\\Documentos\\GitHub\\CuidadoBovino.App\\CuidadoBovino.App.Dominio\\CuidadoBovino.App.Dominio.csproj"
             },
-            "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj": {
-              "projectPath": "C:\\MinTic-Ucaldas\\ProyectoTic\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj"
+            "C:\\Users\\David Naranjo\\OneDrive\\Documentos\\GitHub\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\David Naranjo\\OneDrive\\Documentos\\GitHub\\CuidadoBovino.App\\CuidadoBovino.App.Persistencia\\CuidadoBovino.App.Persistencia.csproj"
             }
           }
         }
