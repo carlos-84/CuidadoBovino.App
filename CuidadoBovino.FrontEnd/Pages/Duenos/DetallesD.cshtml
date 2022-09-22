@@ -1,0 +1,20 @@
+@page
+@model CuidadoBovino.FrontEnd.Pages.DetallesDModel
+@{
+}
+<div class="shadow-sm p-3 mb-5 bg-light rounded">
+    <h1 class="h1 text-center"> Detalles de los dueños</h1>
+</div>
+<br>
+<div class="card">
+  <h5 class="card-header h3 text-center">Datos del Dueño</h5>
+  <div class="card-body text-center">
+    <h3 class="card-text h5"><b>Id Dueño:</b> @Model.duenobovino.Id</h3>
+    <h5 class="card-title h5"><b>Nombre:</b></b> @Model.duenobovino.Nombre</h5>
+    <p class="card-text h5"><b>Apellido:</b> @Model.duenobovino.Apellido</p>
+    <p class="card-text h5"><b>Dirección:</b> @Model.duenobovino.Direccion</p>
+    <p class="card-text h5"><b>Teléfono:</b> @Model.duenobovino.Telefono</p>
+    <p class="card-text h5"><b>Correo electronico:</b> @Model.duenobovino.CorreoE</p>
+    <a class="btn btn-primary" asp-page="./Duenos">Regresar al Listado <i class="fas fa-arrow-circle-left fa-lg"></i></a>
+  </div>
+</div> 

@@ -1,0 +1,42 @@
+@page
+@model CuidadoBovino.FrontEnd.Pages.AgregarDuenoModel
+@{
+  ViewData["Title"] = "Agregar Dueño | Cuidado Bovino";
+}
+
+<div class="shadow-sm p-3 mb-5 bg-light rounded">
+  <h1 class="h1">Para agregar un nuevo dueño rellene todos los campos. <i class="fas fa-hippo"></i></h1>
+</div>
+<hr>
+<div class="div-form bg-light">
+  <form class="formNBov m-3">
+    <div class="form-group">
+      <label asp-for="duenobovino.Nombre" class="form-label">Nombre</label>
+      <input asp-for="duenobovino.Nombre" type="text" class="form-control"  placeholder="Nombre del Bovino">
+      <span asp-validation-for="duenobovino.Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="duenobovino.Apellido" class="form-label">Apellido</label>
+      <input asp-for="duenobovino.Apellido" type="text" class="form-control" placeholder="Apellido">
+      <span asp-validation-for="duenobovino.Apellido" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="duenobovino.Direccion" class="form-label">Dirección</label>
+      <input asp-for="duenobovino.Direccion" type="text" class="form-control" placeholder="Direccion">
+      <span asp-validation-for="duenobovino.Direccion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="duenobovino.Telefono" class="form-label">Telefono</label>
+      <input asp-for="duenobovino.Telefono" type="text" class="form-control" placeholder="Telefono">
+      <span asp-validation-for="duenobovino.Telefono" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="duenobovino.CorreoE" class="form-label">Correo electronico</label>
+    <input type="text" class="form-control" asp-for="duenobovino.CorreoE" placeholder="CorreoE">
+     <span asp-validation-for="duenobovino.CorreoE" class="text-danger"></span>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-success mt-3 mb-3"  asp-page="/Duenos/Duenos"><i class="fas fa-hippo"></i> Guardar</button>
+    <a type="button" class="btn btn-secondary mt-3 mb-3" asp-area="" asp-page="/Duenos/Duenos"><i class="fas fa-ban"></i> Cancelar</a>
+  </form>
+</div>

@@ -7,11 +7,25 @@ namespace CuidadoBovino.App.Consola
     class Program
     {
         private static IntBovino _repoBovino =  new RepBovino(new CuidadoBovino.App.Persistencia.AppContext());
+        private static IntDuenoBovino _repoDuenoBovino = new RepDuenoBovino(new CuidadoBovino.App.Persistencia.AppContext());
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            AddDuenoBovino();
             //AddBovino();
-            BuscarBovino(6);
+            //BuscarBovino(2);
+        }
+        private static void AddDuenoBovino()
+        {
+          var duenobovino = new DuenoBovino()
+          {
+            Nombre = "Maria",
+            Apellido = "Antonieta",
+            Direccion = "Finca tres esquinas km3",
+            Telefono = "32222222",
+            CorreoE = "maria@e-mail.com"
+          };
+          _repoDuenoBovino.AddDuenoBovino(duenobovino);
         }
         private static void AddBovino()
         {

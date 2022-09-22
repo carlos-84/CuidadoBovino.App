@@ -1,0 +1,48 @@
+@page
+@model CuidadoBovino.FrontEnd.Pages.DuenosModel
+@{
+    ViewData["Title"] = "Dueños | Cuidado Bovino";
+}
+
+<div class="shadow-sm p-3 mb-5 bg-light rounded">
+    <h1 class="h1">Listado de Dueños registrados en el sistema de Cuidado Bovino.</h1>
+</div>
+<hr>
+<div class="shadow-sm p-3 mb-5 bg-light rounded d-inline">
+    <h3 class="h3 d-inline">Para agregar un nuevo dueño presione</h3></n><br> <br><br> 
+    <a class="btn btn-success" asp-area="" asp-page="/Duenos/AgregarDueno"> <i class="fas fa-plus"></i> Nuevo dueño</a>
+</div>
+<hr>
+    <table class="table table-bordered shadow-sm bg-light">
+        <thead>
+            <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Dirección</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Correo Electronico</th>
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var bovine in Model.DuenoBovino)
+            {
+                 <tr>
+                <td>@bovine.Nombre</td>
+                <td>@bovine.Apellido</td>
+                <td>@bovine.Direccion</td>
+                <td>@bovine.Telefono</td>
+                <td>@bovine.CorreoE</td>
+                 <td>
+                    
+                    <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed">
+                        <a class="btn btn-primary table-btn" asp-page="./Detalles" asp-route-IdBovino="@bovine.Id"><i class="far fa-list-alt"></i> Detalles</a>
+                        @*<a class="btn btn-warning d-inline" asp-route-IdBovino="@bovine.Id" asp-page="./EditarBovino"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-route-IdBovino="@bovine.Id" asp-page="./EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> *@
+                    </div>
+                </td> 
+            </tr>
+                
+            }
+           
+        </tbody>
+    </table>
