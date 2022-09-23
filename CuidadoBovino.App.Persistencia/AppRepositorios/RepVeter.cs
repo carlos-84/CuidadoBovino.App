@@ -36,7 +36,7 @@ namespace CuidadoBovino.App.Persistencia
             return VeterinarioEncontrado;
         }
 
-        void IntVeter.DeleteVeterinario(int idBVeterinario)
+        void IntVeter.DeleteVeterinario(int idVeterinario)
         {
             var VeterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id ==idVeterinario);
             if (VeterinarioEncontrado == null)
