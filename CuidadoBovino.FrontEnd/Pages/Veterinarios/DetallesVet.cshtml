@@ -1,0 +1,20 @@
+@page
+@model CuidadoBovino.FrontEnd.Pages.DetallesVetModel
+@{
+}
+<div class="shadow-sm p-3 mb-5 bg-light rounded">
+    <h1 class="h1 text-center">Detalles Veterinario</h1>
+</div>
+<br>
+<div class="card">
+  <h5 class="card-header h3 text-center">Datos del Veterinario</h5>
+  <div class="card-body text-center">
+    <h3 class="card-text h5"><b>Id Veterinario:</b> @Model.veterinario.Id</h3>
+    <h5 class="card-title h5"><b>Nombre Veterinario:</b></b> @Model.veterinario.Nombre</h5>
+    <p class="card-text h5"><b>Tarj. Profesional:</b> @Model.veterinario.TarjProfesional</p>
+    <p class="card-text h5"><b>Dirección:</b> @Model.veterinario.Direccion</p>
+    <p class="card-text h5"><b>Teléfono:</b> @Model.veterinario.Telefono</p>
+    <p class="card-text h5"><b>Correo electronico:</b> @Model.veterinario.CorreoE</p>
+    <a class="btn btn-primary" asp-page="./Bovinos">Regresar al Listado <i class="fas fa-arrow-circle-left fa-lg"></i></a>
+  </div>
+</div> 
