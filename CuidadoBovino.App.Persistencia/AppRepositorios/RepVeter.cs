@@ -30,6 +30,11 @@ namespace CuidadoBovino.App.Persistencia
             if (VeterinarioEncontrado != null)
             {
                 VeterinarioEncontrado.Id = veterinario.Id;
+                VeterinarioEncontrado.TarjProfesional = veterinario.TarjProfesional;
+                VeterinarioEncontrado.Nombre = veterinario.Nombre;
+                VeterinarioEncontrado.Direccion = veterinario.Direccion;
+                VeterinarioEncontrado.Delefono = veterinario.Delefono;
+                VeterinarioEncontrado.Correo = veterinario.Correo;
                 
                 _appContext.SaveChanges();
             }

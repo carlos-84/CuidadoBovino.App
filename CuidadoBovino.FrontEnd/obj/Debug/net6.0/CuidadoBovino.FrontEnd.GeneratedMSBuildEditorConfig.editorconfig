@@ -79,6 +79,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Veterinarios/AgregarVet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXEFncmVnYXJWZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Veterinarios/DetallesVet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXERldGFsbGVzVmV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Veterinarios/EditarVet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXEVkaXRhclZldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Veterinarios/EliminarVet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXEVsaW1pbmFyVmV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Veterinarios/NotFoundV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXE5vdEZvdW5kVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/Veterinarios/Veterinarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXFZldGVyaW5hcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/MinTic-Ucaldas/ProyectoTic/CuidadoBovino.App/CuidadoBovino.FrontEnd/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

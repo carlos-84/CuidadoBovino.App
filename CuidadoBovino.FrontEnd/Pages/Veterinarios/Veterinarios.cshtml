@@ -5,11 +5,11 @@
 }
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded">
-    <h1 class="h1">Listado de Veterinarios registrados en el sistema de Cuidado Bovino.</h1>
+    <h1 class="h1">Veterinarios registrados en el sistema de Cuidado Bovino.</h1>
 </div>
 <hr>
 <div class="shadow-sm p-3 mb-5 bg-light rounded d-inline">
-    <h3 class="h3 d-inline">Para agregar un nuevo Veterinario presione</h3></n> <br> <br>
+    <h3 class="h3 d-inline">Para agregar un nuevo Veterinario presione</h3> <br> <br>
     <a class="btn btn-success" asp-area="" asp-page="/Veterinarios/AgregarVet"> <i class="fas fa-plus"></i> Nuevo Veterinario</a>
 </div>
 <hr>
@@ -30,14 +30,14 @@
                 <td>@bovine.TarjProfesional</td>
                 <td>@bovine.Nombre</td>
                 <td>@bovine.Direccion</td>
-                <td>@bovine.Telefono</td>
-                <td>@bovine.CorreoE</td>
+                <td>@bovine.Delefono</td>
+                <td>@bovine.Correo</td>
                  <td>
                     
                     <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed">
-                        <a class="btn btn-primary table-btn" asp-page="./DetallesVet" asp-route-IdBovino="@bovine.Id"><i class="far fa-list-alt"></i> Detalles</a>
-                        @*<a class="btn btn-warning d-inline" asp-route-IdBovino="@bovine.Id" asp-page="./EditarBovino"><i class="fas fa-edit"></i> Editar</a>
-                        <a class="btn btn-danger d-inline" asp-route-IdBovino="@bovine.Id" asp-page="./EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> *@
+                        <a class="btn btn-primary table-btn" asp-page="./DetallesVet" asp-route-IdVeterinario="@bovine.Id"><i class="far fa-list-alt"></i> Detalles</a>
+                        <a class="btn btn-warning d-inline" asp-route-IdEditarVet="@bovine.Id" asp-page="./EditarVet"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-route-IdEliminarVet="@bovine.Id" asp-page="./EliminarVet"><i class="fas fa-trash-alt"></i> Eliminar</a> 
                     </div>
                 </td> 
             </tr>

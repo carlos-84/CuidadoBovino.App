@@ -1,9 +1,10 @@
 @page
 @model CuidadoBovino.FrontEnd.Pages.DetallesVetModel
 @{
+  ViewData["Title"] = "Detalles del Veterinario | Cuidado Bovino";
 }
 <div class="shadow-sm p-3 mb-5 bg-light rounded">
-    <h1 class="h1 text-center">Detalles Veterinario</h1>
+    <h1 class="h1 text-center">Detalles del Veterinario</h1>
 </div>
 <br>
 <div class="card">
@@ -13,8 +14,8 @@
     <h5 class="card-title h5"><b>Nombre Veterinario:</b></b> @Model.veterinario.Nombre</h5>
     <p class="card-text h5"><b>Tarj. Profesional:</b> @Model.veterinario.TarjProfesional</p>
     <p class="card-text h5"><b>Dirección:</b> @Model.veterinario.Direccion</p>
-    <p class="card-text h5"><b>Teléfono:</b> @Model.veterinario.Telefono</p>
-    <p class="card-text h5"><b>Correo electronico:</b> @Model.veterinario.CorreoE</p>
-    <a class="btn btn-primary" asp-page="./Bovinos">Regresar al Listado <i class="fas fa-arrow-circle-left fa-lg"></i></a>
+    <p class="card-text h5"><b>Teléfono:</b> @Model.veterinario.Delefono</p>
+    <p class="card-text h5"><b>Correo electronico:</b> @Model.veterinario.Correo</p>
+    <a class="btn btn-primary" asp-page="./Veterinarios">Regresar al Listado <i class="fas fa-arrow-circle-left fa-lg"></i></a>
   </div>
 </div> 
