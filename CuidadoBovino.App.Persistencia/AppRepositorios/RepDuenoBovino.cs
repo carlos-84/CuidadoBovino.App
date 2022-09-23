@@ -53,9 +53,9 @@ namespace CuidadoBovino.App.Persistencia
                 
         }
 
-        DuenoBovino IntDuenoBovino.GetDuenoBovino(int IdDuenoBovino)
+        DuenoBovino IntDuenoBovino.GetDuenoBovino(int idDuenoBovino)
         {
-            return _appContext.DuenoBovinos.FirstOrDefault(db => db.Id == IdDuenoBovino);
+            return _appContext.DuenoBovinos.FirstOrDefault(db => db.Id == idDuenoBovino);
         }
     }
 }

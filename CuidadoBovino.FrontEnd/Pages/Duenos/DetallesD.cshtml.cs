@@ -12,21 +12,22 @@ namespace CuidadoBovino.FrontEnd.Pages
 {
     public class DetallesDModel : PageModel
     {
-        private readonly IntDuenoBovino repD;
+        private readonly IntDuenoBovino repDueno;
+        [BindProperty]
         public DuenoBovino duenobovino {set; get;}
         public DetallesDModel(){
 
-            this.repD = new RepDuenoBovino(new CuidadoBovino.App.Persistencia.AppContext());
+            this.repDueno = new RepDuenoBovino(new CuidadoBovino.App.Persistencia.AppContext());
         }
-        public IActionResult OnGet(int idDueno)
+        public IActionResult OnGet(int IdDuenoBovino)
         
         {
-            duenobovino = repD.GetDuenoBovino(idDueno);
+            duenobovino = repDueno.GetDuenoBovino(IdDuenoBovino);
             
           
             if (duenobovino==null)
             {
-                return RedirectToPage("./NoFound");
+                return RedirectToPage("./NotFoundD");
                
             }
             else{

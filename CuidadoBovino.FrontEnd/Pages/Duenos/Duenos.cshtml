@@ -9,7 +9,7 @@
 </div>
 <hr>
 <div class="shadow-sm p-3 mb-5 bg-light rounded d-inline">
-    <h3 class="h3 d-inline">Para agregar un nuevo dueño presione</h3></n><br> <br><br> 
+    <h3 class="h3 d-inline">Para agregar un nuevo dueño presione </h3><br> <br><br> 
     <a class="btn btn-success" asp-area="" asp-page="/Duenos/AgregarDueno"> <i class="fas fa-plus"></i> Nuevo dueño</a>
 </div>
 <hr>
@@ -35,9 +35,9 @@
                  <td>
                     
                     <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed">
-                        <a class="btn btn-primary table-btn" asp-page="./Detalles" asp-route-IdBovino="@bovine.Id"><i class="far fa-list-alt"></i> Detalles</a>
-                        @*<a class="btn btn-warning d-inline" asp-route-IdBovino="@bovine.Id" asp-page="./EditarBovino"><i class="fas fa-edit"></i> Editar</a>
-                        <a class="btn btn-danger d-inline" asp-route-IdBovino="@bovine.Id" asp-page="./EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> *@
+                        <a class="btn btn-primary table-btn" asp-area="" asp-route-IdDuenoBovino="@bovine.Id" asp-page="./DetallesD" ><i class="far fa-list-alt"></i> Detalles</a>
+                        <a class="btn btn-warning d-inline" asp-route-IdEditarDueno="@bovine.Id" asp-page="./EditarDueno"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-route-IdEliminarDueno="@bovine.Id" asp-page="./EliminarDueno"><i class="fas fa-trash-alt"></i> Eliminar</a>
                     </div>
                 </td> 
             </tr>

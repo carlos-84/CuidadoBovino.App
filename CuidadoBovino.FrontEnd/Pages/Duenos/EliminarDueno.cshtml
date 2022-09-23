@@ -1,0 +1,45 @@
+﻿@page
+@model CuidadoBovino.FrontEnd.Pages.EliminarDuenoModel
+@{
+}
+<div class="shadow-sm p-3 mb-1 bg-light rounded">
+    <h2 class="h2 text-center ">Edicion de datos del Dueño <i class="fas fa-edit fa-lg"></i></h2>
+</div>
+<div class="div-form bg-light mb-3">
+    <form method="post" class=" bg-light">
+        <input type="hidden" asp-for="duenobovino.Id"/>
+        <div class="form-grup">
+            <label asp-for="duenobovino.Id"></label>
+            <input asp-for="duenobovino.Id" class="form-control">
+            <span class="text-danger" asp-validation-for="duenobovino.Id"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="duenobovino.Nombre"></label>
+            <input asp-for="duenobovino.Nombre" class="form-control">
+            <span class="text-danger" asp-validation-for="duenobovino.Nombre"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="duenobovino.Apellido"></label>
+            <input asp-for="duenobovino.Apellido" class="form-control">
+            <span class="text-danger" asp-validation-for="duenobovino.Apellido"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="duenobovino.Direccion"></label>
+            <input asp-for="duenobovino.Direccion" class="form-control">
+            <span class="text-danger" asp-validation-for="duenobovino.Direccion"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="duenobovino.Telefono"></label>
+            <input asp-for="duenobovino.Telefono" class="form-control">
+            <span class="text-danger" asp-validation-for="duenobovino.Telefono"></span>
+        </div>
+        <div class="form-grup">
+            <label asp-for="duenobovino.CorreoE"></label>
+            <input asp-for="duenobovino.CorreoE" class="form-control">
+            <span class="text-danger" asp-validation-for="duenobovino.CorreoE"></span>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-success">Guardar Cambios <i class="fas fa-save fa-lg"></i></button>
+    </form>
+</div>
+

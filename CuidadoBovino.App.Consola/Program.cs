@@ -19,11 +19,11 @@ namespace CuidadoBovino.App.Consola
         {
           var duenobovino = new DuenoBovino()
           {
-            Nombre = "Maria",
-            Apellido = "Antonieta",
-            Direccion = "Finca tres esquinas km3",
-            Telefono = "32222222",
-            CorreoE = "maria@e-mail.com"
+            Nombre = "Fabio",
+            Apellido = "Galan",
+            Direccion = "Finca Mi Terruño",
+            Telefono = "32222255",
+            CorreoE = "fgalan@e-mail.com"
           };
           _repoDuenoBovino.AddDuenoBovino(duenobovino);
         }

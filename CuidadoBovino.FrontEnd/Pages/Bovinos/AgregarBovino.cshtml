@@ -9,30 +9,30 @@
 </div>
 <hr>
 <div class="div-form bg-light">
-  <form class="formNBov m-3">
+  <form class="formNBov m-3" method="post">
     <div class="form-group">
       <label asp-for="bovino.NombreBovino" class="form-label">Nombre del Bovino</label>
-      <input asp-for="bovino.NombreBovino" type="text" class="form-control"  placeholder="Nombre del Bovino">
+      <input asp-for="bovino.NombreBovino" type="text" class="form-control">
       <span asp-validation-for="bovino.NombreBovino" class="text-danger"></span>
     </div>
     <div class="form-group">
       <label asp-for="bovino.Raza" class="form-label">Raza del Bovino</label>
-      <input asp-for="bovino.Raza" type="text" class="form-control" placeholder="Raza del Bovino">
+      <input asp-for="bovino.Raza" type="text" class="form-control">
       <span asp-validation-for="bovino.Raza" class="text-danger"></span>
     </div>
     <div class="form-group">
       <label asp-for="bovino.Color" class="form-label">Color del Bovino</label>
-      <input asp-for="bovino.Color" type="text" class="form-control" placeholder="Color del Bovino">
+      <input asp-for="bovino.Color" type="text" class="form-control">
       <span asp-validation-for="bovino.Color" class="text-danger"></span>
     </div>
     <div class="form-group">
       <label asp-for="bovino.Edad" class="form-label">Edad del Bovino</label>
-      <input asp-for="bovino.Edad" type="number" class="form-control" placeholder="Edad del Bovino">
+      <input asp-for="bovino.Edad" type="number" class="form-control">
       <span asp-validation-for="bovino.Edad" class="text-danger"></span>
     </div>
     <div class="form-group">
       <label asp-for="bovino.IdVeterinario" class="form-label">Veterinario del Bovino</label>
-    <input type="number" class="form-control" asp-for="bovino.IdVeterinario" placeholder="Veterinario del Bovino">
+    <input type="number" class="form-control" asp-for="bovino.IdVeterinario">
      <span asp-validation-for="bovino.IdVeterinario" class="text-danger"></span>
   </div>
   <div class="form-group">
@@ -40,7 +40,7 @@
     <input type="number" class="form-control" asp-for="bovino.IdVisita">
      <span asp-validation-for="bovino.IdVisita" class="text-danger"></span>
     </div>
-    <button type="submit" class="btn btn-success mt-3 mb-3"  asp-page="/Bovinos/Bovinos"><i class="fas fa-hippo"></i> Guardar</button>
+    <button type="submit" class="btn btn-success mt-3 mb-3"><i class="fas fa-hippo"></i> Guardar</button>
     <a type="button" class="btn btn-secondary mt-3 mb-3" asp-area="" asp-page="/Bovinos/Bovinos"><i class="fas fa-ban"></i> Cancelar</a>
   </form>
 </div>

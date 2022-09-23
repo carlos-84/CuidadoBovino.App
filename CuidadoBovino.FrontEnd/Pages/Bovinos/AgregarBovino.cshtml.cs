@@ -20,8 +20,7 @@ namespace CuidadoBovino.FrontEnd.Pages
         }
         [BindProperty]
         public Bovino bovino{set;get;}
-        //public Veterinario Veterinario{set; get;}
-        //public HistoriaMedica HistoriaMedica{set;get;}
+        
        
         public void OnGet()
         {
